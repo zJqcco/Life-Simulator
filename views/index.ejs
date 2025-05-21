@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Sim</title>
+</head>
+<body>
+    <div class="container">
+        <canvas id="world" height="800px" width="1200px"></canvas>
+        <div class="graph-container">
+            <canvas class="graph" id="foodChart" style="max-width:400px"></canvas>
+            <canvas class="graph" id="organismChart" style="max-width:400px"></canvas>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/world.js"></script>

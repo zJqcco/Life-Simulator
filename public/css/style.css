@@ -1,0 +1,19 @@
+canvas{
+
+    border: 2px solid black;
+
+}
+.graph-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+.graph{
+    width:400px;
+}
